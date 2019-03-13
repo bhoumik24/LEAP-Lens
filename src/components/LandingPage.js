@@ -20,12 +20,12 @@ import iconCaseStudyLifeSciences from '../assets/icon-caseStudy-lifeSciences.svg
 const triggerJob = () => {
 
 
-    fetch('http://ec2-54-201-161-112.us-west-2.compute.amazonaws.com:49000/job/security-static-code-analysis/build', {
+    fetch('http://localhost:8080/job/security-static-code-analysis/StartSecurity', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
             'Content-Type': 'application/json',
-            'Authorization': 'Basic '+ btoa('super:11fe502a3430ffb193f063214acc20f9')
+            'Authorization': 'Basic '+ btoa('admin:e3cb40083b484589a608f472bef1b892')
         }
     })
 };
