@@ -224,8 +224,8 @@ const header = () => {
                         </li>
                         <li className="tab is-dropdown-submenu-parent opens-left" role="menuitem" aria-haspopup="true"
                             aria-label="Latest Thinking">
-                            <a id="Latest_thinking" tabIndex="0" className="p1" title="Carnival Assessment"
-                               data-attribute="topHeaderMenuTag">Carnival Assessment</a>
+                            <a id="Latest_thinking" tabIndex="0" className="p1" title="Security Assessment"
+                               data-attribute="topHeaderMenuTag">Security Assessment</a>
                             <ul className="no-bullet header-submenu submenu is-dropdown-submenu first-sub vertical"
                                 style={{display:"none"}} data-submenu="" role="menubar">
                                 <li data-attribute="dropDownMenuTag" role="menuitem"
