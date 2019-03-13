@@ -288,7 +288,7 @@ const landingPage = () => {
                                             <div className="columns flex-container align-right">
                                                 <h5 className="anim-icon text-green">
                                                     <i className="arrow-solid-right fw600"/>
-                                                    <div className="anim-text">View</div>
+                                                    <div className="anim-text">Run</div>
                                                 </h5>
                                             </div>
                                         </div>
@@ -321,7 +321,7 @@ const landingPage = () => {
                                             <div className="columns flex-container align-right">
                                                 <h5 className="anim-icon text-green">
                                                     <i className="arrow-solid-right fw600"/>
-                                                    <div className="anim-text">View</div>
+                                                    <div className="anim-text">Run</div>
                                                 </h5>
                                             </div>
                                         </div>
@@ -354,7 +354,7 @@ const landingPage = () => {
                                             <div className="columns flex-container align-right">
                                                 <h5 className="anim-icon text-green">
                                                     <i className="arrow-solid-right fw600"></i>
-                                                    <div className="anim-text">View</div>
+                                                    <div className="anim-text">Run</div>
                                                 </h5>
                                             </div>
                                         </div>
@@ -387,7 +387,7 @@ const landingPage = () => {
                                             <div className="columns flex-container align-right">
                                                 <h5 className="anim-icon text-green">
                                                     <i className="arrow-solid-right fw600"/>
-                                                    <div className="anim-text">View</div>
+                                                    <div className="anim-text">Run</div>
                                                 </h5>
                                             </div>
                                         </div>
@@ -422,7 +422,7 @@ const landingPage = () => {
                                             <div className="columns flex-container align-right">
                                                 <h5 className="anim-icon text-green">
                                                     <i className="arrow-solid-right fw600"/>
-                                                    <div className="anim-text">View</div>
+                                                    <div className="anim-text">Run</div>
                                                 </h5>
                                             </div>
                                         </div>
@@ -456,7 +456,7 @@ const landingPage = () => {
                                             <div className="columns flex-container align-right">
                                                 <h5 className="anim-icon text-green">
                                                     <i className="arrow-solid-right fw600"/>
-                                                    <div className="anim-text">View</div>
+                                                    <div className="anim-text">Run</div>
                                                 </h5>
                                             </div>
                                         </div>
