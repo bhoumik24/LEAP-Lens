@@ -245,7 +245,7 @@ const landingPage = () => {
                             <p>Start developing an application security testing strategy to avoid your legacy applications from being attacked by using Cognizant’s LEAP LENS Framework/Platform</p>
 
 
-                            <a href={cyberSecurityPDF}
+                            <a
                                target="_blank" onClick="" title="VIEW PDF" className="button small "
                                data-attribute="downloadTheReportClick"><strong> Get started</strong><i
                                 className="arrow-right"/></a>
