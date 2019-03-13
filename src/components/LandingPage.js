@@ -1,7 +1,6 @@
 import React from 'react';
 import './LandingPage.css';
 import './rfs.css'
-import COGLogoTechnologiesBlack from '../assets/COG-Logo-Digital-Systems-Technologies-black.svg';
 import cdstlockupsecurity from '../assets/cdst-logo-lockup-security-q2.svg';
 import securityBannerDesktop from '../assets/security-banner-desktop.jpg';
 import sast from '../assets/cybersecurity.jpg';

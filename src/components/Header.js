@@ -1,7 +1,7 @@
 import React from 'react';
 import './LandingPage.css';
-import countryHomeWorldIcon from "../assets/country-home-world-icon.png";
 import COGLogo from '../assets/COG-Logo.svg';
+import LEAP from '../assets/LEAP.svg';
 import CBC_navImage from '../assets/CBC_360x100_navIMAGE.jpg';
 import COGLogoBusinessWhite from '../assets/COG-Logo-Digital-Business-White.svg';
 import COGLogoOperationsWhite from '../assets/COG-Logo-Digital-Operations-White.svg';
@@ -147,7 +147,7 @@ const header = () => {
                         </li>
                         <li className="tab is-dropdown-submenu-parent opens-left" role="menuitem" aria-haspopup="true"
                             aria-label="Services">
-                            <a id="Services" tabIndex="" className="p1 text-bold" title="Core LEAP"
+                            <a id="Services" tabIndex="" className="p1" title="Core LEAP"
                                data-attribute="topHeaderMenuTag">Core LEAP</a>
                             <ul className="no-bullet header-submenu submenu is-dropdown-submenu first-sub vertical"
                                 style={{display:"none"}} data-submenu="" role="menubar">
