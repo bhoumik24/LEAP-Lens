@@ -1,7 +1,6 @@
 import React from 'react';
 import './LandingPage.css';
 import COGLogo from '../assets/COG-Logo.svg';
-import LEAP from '../assets/LEAP.svg';
 import CBC_navImage from '../assets/CBC_360x100_navIMAGE.jpg';
 import COGLogoBusinessWhite from '../assets/COG-Logo-Digital-Business-White.svg';
 import COGLogoOperationsWhite from '../assets/COG-Logo-Digital-Operations-White.svg';
