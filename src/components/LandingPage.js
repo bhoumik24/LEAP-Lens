@@ -19,7 +19,7 @@ import iconCaseStudyLifeSciences from '../assets/icon-caseStudy-lifeSciences.svg
 const triggerJob = () => {
 
 
-    fetch('http://localhost:8080/job/StartSecurity/build', {
+    fetch('http://18.204.175.170:8080/job/StartSecurity/build', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
