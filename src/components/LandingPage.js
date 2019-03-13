@@ -246,7 +246,7 @@ const landingPage = () => {
 
 
                             <a
-                               target="_blank" onClick="" title="VIEW PDF" className="button small "
+                               href="#featured-work" onClick="" title="VIEW PDF" className="button small "
                                data-attribute="downloadTheReportClick"><strong> Get started</strong><i
                                 className="arrow-right"/></a>
                         </div>
