@@ -28,8 +28,8 @@ const header = () => {
                     <ul data-dropdown-menu="h1odd8-dropdown-menu" data-options="disableHover:true;clickOpen:true"
                         className="no-bullet menu horizontal align-right dropdown menu slide-in-right" role="menubar">
                         <li className="tab is-dropdown-submenu-parent opens-left" role="menuitem" aria-haspopup="true"
-                            aria-label="Industries">
-                            <a id="Industries" tabIndex="0" className="p1" title="Industries"
+                            aria-label="Cloud Platform">
+                            <a id="Industries" tabIndex="0" className="p1" title="Cloud Platform"
                                data-attribute="topHeaderMenuTag">Cloud Platform</a>
                             <ul className="no-bullet header-submenu submenu is-dropdown-submenu first-sub vertical"
                                 style={{display:"none"}} data-submenu="" role="menubar">
@@ -147,7 +147,7 @@ const header = () => {
                         </li>
                         <li className="tab is-dropdown-submenu-parent opens-left" role="menuitem" aria-haspopup="true"
                             aria-label="Services">
-                            <a id="Services" tabIndex="" className="p1 text-bold" title="Services"
+                            <a id="Services" tabIndex="" className="p1 text-bold" title="Core LEAP"
                                data-attribute="topHeaderMenuTag">Core LEAP</a>
                             <ul className="no-bullet header-submenu submenu is-dropdown-submenu first-sub vertical"
                                 style={{display:"none"}} data-submenu="" role="menubar">
@@ -225,7 +225,7 @@ const header = () => {
                         </li>
                         <li className="tab is-dropdown-submenu-parent opens-left" role="menuitem" aria-haspopup="true"
                             aria-label="Latest Thinking">
-                            <a id="Latest_thinking" tabIndex="0" className="p1" title="Latest Thinking"
+                            <a id="Latest_thinking" tabIndex="0" className="p1" title="Assessment Carnival"
                                data-attribute="topHeaderMenuTag">Assessment Carnival</a>
                             <ul className="no-bullet header-submenu submenu is-dropdown-submenu first-sub vertical"
                                 style={{display:"none"}} data-submenu="" role="menubar">
