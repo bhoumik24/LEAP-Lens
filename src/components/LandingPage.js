@@ -302,7 +302,7 @@ const landingPage = () => {
                     <div className="column column-block flex-container">
 
 
-                        <a href="/case-studies/cybersecurity-infrastructure-solution" className="flex-container w100"
+                        <a onClick={triggerJob} className="flex-container w100"
                            title="US Utility Upgrades Security to Turn Back Threats, Ensure Compliance">
                             <div
                                 style={{background: "url("+ caseStudySecurity +") no-repeat", backgroundSize: "cover"}}
@@ -335,7 +335,7 @@ const landingPage = () => {
                     <div className="column column-block flex-container">
 
 
-                        <a href="/case-studies/cybersecurity-program-visibility" className="flex-container w100"
+                        <a onClick={triggerJob} className="flex-container w100"
                            title="Global Pharma Consolidates Security Management">
                             <div
                                 style={{background: "url("+ caseStudyGlobalPharma +") no-repeat", backgroundSize: "cover"}}
@@ -368,7 +368,7 @@ const landingPage = () => {
                     <div className="column column-block flex-container">
 
 
-                        <a href="/case-studies/identity-access-management-solution" className="flex-container w100"
+                        <a onClick={triggerJob} className="flex-container w100"
                            title="Telco Giant Slashes IAM Backlog, Drives Key Metrics">
                             <div
                                 style={{background: "url("+ caseStudyGlobalTelco +") no-repeat", backgroundSize: "cover"}}
@@ -401,7 +401,7 @@ const landingPage = () => {
                     <div className="column column-block flex-container">
 
 
-                        <a href="/case-studies/identity-access-management-fin-services-solution"
+                        <a onClick={triggerJob}
                            className="flex-container w100"
                            title="Financial Firm Increases IAM Security and Transparency">
                             <div
@@ -436,7 +436,7 @@ const landingPage = () => {
                     <div className="column column-block flex-container">
 
 
-                        <a href="/case-studies/iam-system-upgrade" className="flex-container w100"
+                        <a onClick={triggerJob} className="flex-container w100"
                            title="Financial Firm Resolves IAM Issues to Bolster Security">
                             <div
                                 style={{background: "url("+ caseStudyComplaince +") no-repeat", backgroundSize: "cover"}}
