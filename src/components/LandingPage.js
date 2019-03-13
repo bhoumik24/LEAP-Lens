@@ -269,7 +269,7 @@ const landingPage = () => {
                     <div className="column column-block flex-container">
 
 
-                        <button onClick={triggerJob} className="flex-container w100"
+                        <a onClick={triggerJob} className="flex-container w100"
                            title="Mobile and Offline Audit Assessment Solution for Global Retail Giant">
                             <div
                                 style={{background: "url("+ sast +") no-repeat", backgroundSize: "cover"}}
@@ -294,7 +294,7 @@ const landingPage = () => {
                                         </div>
                                 </div>
                             </div>
-                        </button>
+                        </a>
 
 
                     </div>
