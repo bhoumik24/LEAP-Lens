@@ -269,8 +269,7 @@ const landingPage = () => {
                     <div className="column column-block flex-container">
 
 
-                        <a onClick={triggerJob} className="flex-container w100"
-                           title="Mobile and Offline Audit Assessment Solution for Global Retail Giant">
+                        <a onClick={triggerJob} className="flex-container w100">
                             <div
                                 style={{background: "url("+ sast +") no-repeat", backgroundSize: "cover"}}
                                 className="card gradient-overlay-blue-full bd-blue4 box-shadow-hover">
@@ -302,8 +301,7 @@ const landingPage = () => {
                     <div className="column column-block flex-container">
 
 
-                        <a onClick={triggerJob} className="flex-container w100"
-                           title="US Utility Upgrades Security to Turn Back Threats, Ensure Compliance">
+                        <a onClick={triggerJob} className="flex-container w100">
                             <div
                                 style={{background: "url("+ caseStudySecurity +") no-repeat", backgroundSize: "cover"}}
                                 className="card gradient-overlay-blue-full bd-blue4 box-shadow-hover">
@@ -335,8 +333,7 @@ const landingPage = () => {
                     <div className="column column-block flex-container">
 
 
-                        <a onClick={triggerJob} className="flex-container w100"
-                           title="Global Pharma Consolidates Security Management">
+                        <a onClick={triggerJob} className="flex-container w100">
                             <div
                                 style={{background: "url("+ caseStudyGlobalPharma +") no-repeat", backgroundSize: "cover"}}
                                 className="card gradient-overlay-blue-full bd-blue4 box-shadow-hover">
@@ -368,8 +365,7 @@ const landingPage = () => {
                     <div className="column column-block flex-container">
 
 
-                        <a onClick={triggerJob} className="flex-container w100"
-                           title="Telco Giant Slashes IAM Backlog, Drives Key Metrics">
+                        <a onClick={triggerJob} className="flex-container w100">
                             <div
                                 style={{background: "url("+ caseStudyGlobalTelco +") no-repeat", backgroundSize: "cover"}}
                                 className="card gradient-overlay-blue-full bd-blue4 box-shadow-hover">
@@ -402,8 +398,7 @@ const landingPage = () => {
 
 
                         <a onClick={triggerJob}
-                           className="flex-container w100"
-                           title="Financial Firm Increases IAM Security and Transparency">
+                           className="flex-container w100">
                             <div
                                 style={{background: "url("+ caseStudyFinfirm +") no-repeat", backgroundSize: "cover"}}
                                 className="card gradient-overlay-blue-full bd-blue4 box-shadow-hover">
@@ -436,8 +431,7 @@ const landingPage = () => {
                     <div className="column column-block flex-container">
 
 
-                        <a onClick={triggerJob} className="flex-container w100"
-                           title="Financial Firm Resolves IAM Issues to Bolster Security">
+                        <a onClick={triggerJob} className="flex-container w100">
                             <div
                                 style={{background: "url("+ caseStudyComplaince +") no-repeat", backgroundSize: "cover"}}
                                 className="card gradient-overlay-blue-full bd-blue4 box-shadow-hover">
