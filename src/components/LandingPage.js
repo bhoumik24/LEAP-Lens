@@ -6,20 +6,17 @@ import securityBannerDesktop from '../assets/security-banner-desktop.jpg';
 import sast from '../assets/cybersecurity.jpg';
 import caseStudySecurity from '../assets/case-study-security-modernization-th.jpg';
 import caseStudyGlobalTelco from '../assets/case-study-global-telco-iam-transformation-th.jpg';
-import caseStudyComplaince from '../assets/case-study-iam-and-compliance-th.jpg';
-import caseStudyFinfirm from '../assets/casestudy-financial-firm-increases-iam-security-&-transparency-thumbnail-codex3346.jpg';
 import caseStudyGlobalPharma from '../assets/casestudy-global-pharma-consolidates-security-management-thumbnail-image.jpg';
 import iconCaseStudyRetail from '../assets/icon-caseStudy-retail.svg';
 import iconCaseStudyUtilities from '../assets/icon-case-study-utilities.svg';
 import iconCaseStudyComm from '../assets/icon-caseStudy-communications.svg';
-import iconCaseStudyFinancial from '../assets/icon-caseStudy-financialServices.svg';
 import iconCaseStudyLifeSciences from '../assets/icon-caseStudy-lifeSciences.svg';
 
 
-const triggerJob = () => {
+const triggerJob = (job) => {
 
 
-    fetch('http://18.204.175.170:8080/job/StartSecurity/build', {
+    fetch('http://18.204.175.170:8080/job/'+ job +'/build', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
@@ -176,22 +173,22 @@ const landingPage = () => {
                 </h3>
 
 
-                <div className="row small-up-1 medium-up-2 large-up-3 align-center">
+                <div className="row small-up-1 medium-up-2 large-up-4 align-center">
 
                     <div className="column column-block flex-container">
 
 
-                        <a onClick={triggerJob} className="flex-container w100">
+                        <a onClick={() =>triggerJob("Light-Weight-DAST")} className="flex-container w100">
                             <div
                                 style={{background: "url("+ sast +") no-repeat", backgroundSize: "cover"}}
                                 className="card gradient-overlay-blue-full bd-blue4 box-shadow-hover">
                                 <div className="mbn3 mt1 z1">
                                     <div className="label text-caps"><img
                                         src={iconCaseStudyRetail}
-                                        width="20" style={{filter: "invert(1)"}} className="mr-half"/>SAST</div>
+                                        width="20" style={{filter: "invert(1)"}} className="mr-half"/>LW-DAST</div>
                                 </div>
                                 <div className="card-section pt2 medium-pt5 mt5 text-white z1">
-                                    <h5 className="m0 text-normal">Static Application Security Testing: Secure Code Review</h5>
+                                    <h5 className="m0 text-normal">Light Weight DAST – Non-Intrusive Scan</h5>
                                 </div>
                                 <div className="card-divider bg-transparent pt0 text-right z1">
                                     <hr className="mt0 mb1 opacity-50"/>
@@ -213,17 +210,17 @@ const landingPage = () => {
                     <div className="column column-block flex-container">
 
 
-                        <a onClick={triggerJob} className="flex-container w100">
+                        <a onClick={() =>triggerJob("Light-Weight-SAST")} className="flex-container w100">
                             <div
                                 style={{background: "url("+ caseStudySecurity +") no-repeat", backgroundSize: "cover"}}
                                 className="card gradient-overlay-blue-full bd-blue4 box-shadow-hover">
                                 <div className="mbn3 mt1 z1">
                                     <div className="label text-caps"><img
                                         src={iconCaseStudyUtilities}
-                                        width="20" style={{filter: "invert(1)"}} className="mr-half"/>DAST</div>
+                                        width="20" style={{filter: "invert(1)"}} className="mr-half"/>LW-SAST</div>
                                 </div>
                                 <div className="card-section pt2 medium-pt5 mt5 text-white z1">
-                                    <h5 className="m0 text-normal">Dynamic Application Security Testing: Light-Weight – Not-Intrusive</h5>
+                                    <h5 className="m0 text-normal">Light Weight SAST – Non-Services Scan</h5>
                                 </div>
                                 <div className="card-divider bg-transparent pt0 text-right z1">
                                     <hr className="mt0 mb1 opacity-50"/>
@@ -245,17 +242,17 @@ const landingPage = () => {
                     <div className="column column-block flex-container">
 
 
-                        <a onClick={triggerJob} className="flex-container w100">
+                        <a onClick={() =>triggerJob("Complete-DAST")} className="flex-container w100">
                             <div
                                 style={{background: "url("+ caseStudyGlobalPharma +") no-repeat", backgroundSize: "cover"}}
                                 className="card gradient-overlay-blue-full bd-blue4 box-shadow-hover">
                                 <div className="mbn3 mt1 z1">
                                     <div className="label text-caps"><img
                                         src={iconCaseStudyLifeSciences}
-                                        width="20" style={{filter: "invert(1)"}} className="mr-half"/>SCA</div>
+                                        width="20" style={{filter: "invert(1)"}} className="mr-half"/>C-DAST</div>
                                 </div>
                                 <div className="card-section pt2 medium-pt5 mt5 text-white z1">
-                                    <h5 className="m0 text-normal">Software Composition Analysis</h5>
+                                    <h5 className="m0 text-normal">Complete DAST</h5>
                                 </div>
                                 <div className="card-divider bg-transparent pt0 text-right z1">
                                     <hr className="mt0 mb1 opacity-50"/>
@@ -277,84 +274,17 @@ const landingPage = () => {
                     <div className="column column-block flex-container">
 
 
-                        <a onClick={triggerJob} className="flex-container w100">
+                        <a onClick={() =>triggerJob("Complete-PipeLine-Scan")} className="flex-container w100">
                             <div
                                 style={{background: "url("+ caseStudyGlobalTelco +") no-repeat", backgroundSize: "cover"}}
                                 className="card gradient-overlay-blue-full bd-blue4 box-shadow-hover">
                                 <div className="mbn3 mt1 z1">
                                     <div className="label text-caps"><img
                                         src={iconCaseStudyComm}
-                                        width="20" style={{filter: "invert(1)"}} className="mr-half"/>SPTA</div>
+                                        width="20" style={{filter: "invert(1)"}} className="mr-half"/>CPS</div>
                                 </div>
                                 <div className="card-section pt2 medium-pt5 mt5 text-white z1">
-                                    <h5 className="m0 text-normal">Select Penetration Testing Automation</h5>
-                                </div>
-                                <div className="card-divider bg-transparent pt0 text-right z1">
-                                    <hr className="mt0 mb1 opacity-50"/>
-                                        <div className="row expanded align-right">
-                                            <div className="columns flex-container align-right">
-                                                <h5 className="anim-icon text-green">
-                                                    <i className="arrow-solid-right fw600"/>
-                                                    <div className="anim-text">Run</div>
-                                                </h5>
-                                            </div>
-                                        </div>
-                                </div>
-                            </div>
-                        </a>
-
-
-                    </div>
-
-                    <div className="column column-block flex-container">
-
-
-                        <a onClick={triggerJob}
-                           className="flex-container w100">
-                            <div
-                                style={{background: "url("+ caseStudyFinfirm +") no-repeat", backgroundSize: "cover"}}
-                                className="card gradient-overlay-blue-full bd-blue4 box-shadow-hover">
-                                <div className="mbn3 mt1 z1">
-                                    <div className="label text-caps"><img
-                                        src={iconCaseStudyFinancial}
-                                        width="20" style={{filter: "invert(1)"}}
-                                        className="mr-half"/>Continuous Security Testing</div>
-                                </div>
-                                <div className="card-section pt2 medium-pt5 mt5 text-white z1">
-                                    <h5 className="m0 text-normal">Vulnerability Co-relation and Risk Management</h5>
-                                </div>
-                                <div className="card-divider bg-transparent pt0 text-right z1">
-                                    <hr className="mt0 mb1 opacity-50"/>
-                                        <div className="row expanded align-right">
-                                            <div className="columns flex-container align-right">
-                                                <h5 className="anim-icon text-green">
-                                                    <i className="arrow-solid-right fw600"/>
-                                                    <div className="anim-text">Run</div>
-                                                </h5>
-                                            </div>
-                                        </div>
-                                </div>
-                            </div>
-                        </a>
-
-
-                    </div>
-
-                    <div className="column column-block flex-container">
-
-
-                        <a onClick={triggerJob} className="flex-container w100">
-                            <div
-                                style={{background: "url("+ caseStudyComplaince +") no-repeat", backgroundSize: "cover"}}
-                                className="card gradient-overlay-blue-full bd-blue4 box-shadow-hover">
-                                <div className="mbn3 mt1 z1">
-                                    <div className="label text-caps"><img
-                                        src={iconCaseStudyFinancial}
-                                        width="20" style={{filter: "invert(1)"}}
-                                        className="mr-half"/>Infra Vulnerability Assessment</div>
-                                </div>
-                                <div className="card-section pt2 medium-pt5 mt5 text-white z1">
-                                    <h5 className="m0 text-normal">Integrated Security Issue Management System</h5>
+                                    <h5 className="m0 text-normal">Complete PipeLine Scan</h5>
                                 </div>
                                 <div className="card-divider bg-transparent pt0 text-right z1">
                                     <hr className="mt0 mb1 opacity-50"/>
