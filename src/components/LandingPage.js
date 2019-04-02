@@ -7,6 +7,8 @@ import sast from '../assets/cybersecurity.jpg';
 import caseStudySecurity from '../assets/case-study-security-modernization-th.jpg';
 import caseStudyGlobalTelco from '../assets/case-study-global-telco-iam-transformation-th.jpg';
 import caseStudyGlobalPharma from '../assets/casestudy-global-pharma-consolidates-security-management-thumbnail-image.jpg';
+import caseStudyFinFirm from '../assets/casestudy-financial-firm-increases-iam-security-&-transparency-thumbnail-codex3346.jpg';
+import caseStudyCompliance from '../assets/case-study-iam-and-compliance-th.jpg';
 import iconCaseStudyRetail from '../assets/icon-caseStudy-retail.svg';
 import iconCaseStudyUtilities from '../assets/icon-case-study-utilities.svg';
 import iconCaseStudyComm from '../assets/icon-caseStudy-communications.svg';
@@ -173,7 +175,7 @@ const landingPage = () => {
                 </h3>
 
 
-                <div className="row small-up-1 medium-up-2 large-up-4 align-center">
+                <div className="row small-up-1 medium-up-2 large-up-3 align-center">
 
                     <div className="column column-block flex-container">
 
@@ -296,6 +298,70 @@ const landingPage = () => {
                                                 </h5>
                                             </div>
                                         </div>
+                                </div>
+                            </div>
+                        </a>
+
+
+                    </div>
+
+                    <div className="column column-block flex-container">
+
+
+                        <a onClick={() =>triggerJob("DockerSecurityScan")} className="flex-container w100">
+                            <div
+                                style={{background: "url("+ caseStudyFinFirm +") no-repeat", backgroundSize: "cover"}}
+                                className="card gradient-overlay-blue-full bd-blue4 box-shadow-hover">
+                                <div className="mbn3 mt1 z1">
+                                    <div className="label text-caps"><img
+                                        src={iconCaseStudyLifeSciences}
+                                        width="20" style={{filter: "invert(1)"}} className="mr-half"/>DCSS</div>
+                                </div>
+                                <div className="card-section pt2 medium-pt5 mt5 text-white z1">
+                                    <h5 className="m0 text-normal">Docker Container Security Scan</h5>
+                                </div>
+                                <div className="card-divider bg-transparent pt0 text-right z1">
+                                    <hr className="mt0 mb1 opacity-50"/>
+                                    <div className="row expanded align-right">
+                                        <div className="columns flex-container align-right">
+                                            <h5 className="anim-icon text-green">
+                                                <i className="arrow-solid-right fw600"></i>
+                                                <div className="anim-text">Run</div>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+
+                    </div>
+
+                    <div className="column column-block flex-container">
+
+
+                        <a onClick={() =>triggerJob("SourceCodeScan")} className="flex-container w100">
+                            <div
+                                style={{background: "url("+ caseStudyCompliance +") no-repeat", backgroundSize: "cover"}}
+                                className="card gradient-overlay-blue-full bd-blue4 box-shadow-hover">
+                                <div className="mbn3 mt1 z1">
+                                    <div className="label text-caps"><img
+                                        src={iconCaseStudyComm}
+                                        width="20" style={{filter: "invert(1)"}} className="mr-half"/>SCDS</div>
+                                </div>
+                                <div className="card-section pt2 medium-pt5 mt5 text-white z1">
+                                    <h5 className="m0 text-normal">Source Code Dependency Scan</h5>
+                                </div>
+                                <div className="card-divider bg-transparent pt0 text-right z1">
+                                    <hr className="mt0 mb1 opacity-50"/>
+                                    <div className="row expanded align-right">
+                                        <div className="columns flex-container align-right">
+                                            <h5 className="anim-icon text-green">
+                                                <i className="arrow-solid-right fw600"/>
+                                                <div className="anim-text">Run</div>
+                                            </h5>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </a>

@@ -322,7 +322,7 @@ button {
 }
 
 .row {
-    max-width: 80rem;
+    max-width: 60rem;
     margin-right: auto;
     margin-left: auto;
     display: -webkit-box;
