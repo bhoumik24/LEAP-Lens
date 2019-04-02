@@ -25,7 +25,7 @@ const header = () => {
                 </div>
                 <div className="columns large-8 show-for-large">
                     <ul data-dropdown-menu="h1odd8-dropdown-menu" data-options="disableHover:true;clickOpen:true"
-                        className={"no-bullet menu horizontal align-right dropdown menu slide-in-right"} role="menubar">
+                        className="no-bullet menu horizontal align-right dropdown menu slide-in-right" role="menubar">
                         <li className="tab is-dropdown-submenu-parent opens-left" role="menuitem" aria-haspopup="true"
                             aria-label="Cloud Platform">
                             <a id="Industries" tabIndex="0" className="p1" title="Cloud Platform"
